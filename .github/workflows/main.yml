@@ -4,6 +4,6 @@ jobs:
   my_job:
     name: deploy to staging
     runs-on: ubuntu-18.04
-
-- name: Run Cal
-  run: cal
+    steps:
+    - name: Run Cal
+      run: cal
